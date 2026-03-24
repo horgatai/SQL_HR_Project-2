@@ -50,30 +50,3 @@ A beginner-level SQL project analysing a student mental health survey dataset us
 | Google BigQuery | SQL queries & analysis |
 | Power BI | Data visualisation |
 | GitHub | Version control & project documentation |
-
----
-
-## Repository Structure
-
-```
-SQL_HR_Project-2/
-├── README.md               ← Project overview (this file)
-├── decisions.md            ← Design decisions and assumptions
-├── results.md              ← Query results with BigQuery screenshots
-├── visual_results.md       ← Power BI dashboard screenshots
-└── queries/
-    ├── 01_exploratory.sql
-    ├── 02_depression_by_demographics.sql
-    ├── 03_lifestyle_factors.sql
-    ├── 04_academic_and_financial_pressure.sql
-    └── 05_risk_factors.sql
-```
-
----
-
-## How to Run
-
-1. Upload `Student_Depression_Dataset.csv` to a BigQuery dataset (e.g. `student_depression`)
-2. Name the table `survey`
-3. Rename columns to match the query files (replace spaces with underscores, e.g. `Academic Pressure` → `Academic_Pressure`)
-4. Open any `.sql` file from the `queries/` folder and run it in the BigQuery console
