@@ -4,7 +4,7 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 
 ---
 
-## 01 — Exploratory
+## 01 - Exploratory
 
 ### Q1: Total number of records
 ![Q1](screenshots/queries/1.1.png)
@@ -23,7 +23,7 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 ### Q3: NULL checks
 ![Q3](screenshots/queries/1.3.png)
 
-**Result:** No NULL values found in any key column — dataset is complete and ready for analysis.
+**Result:** No NULL values found in any key column - dataset is complete and ready for analysis.
 
 ---
 
@@ -37,7 +37,7 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 ### Q5: Overall depression rate
 ![Q5](screenshots/queries/1.5.png)
 
-**Result:** 16,336 out of 27,901 students (58.5%) are classified as depressed — a notably high prevalence in the dataset.
+**Result:** 16,336 out of 27,901 students (58.5%) are classified as depressed - a notably high prevalence in the dataset.
 
 ---
 
@@ -55,12 +55,12 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 
 ---
 
-## 02 — Depression by Demographics
+## 02 - Depression by Demographics
 
 ### Q8: Depression rate by gender
 ![Q8](screenshots/queries/2.1.png)
 
-**Result:** Depression rate is nearly identical across genders — 58.6% for males and 58.5% for females. Gender alone is not a differentiating factor.
+**Result:** Depression rate is nearly identical across genders - 58.6% for males and 58.5% for females. Gender alone is not a differentiating factor.
 
 ---
 
@@ -85,12 +85,12 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 
 ---
 
-## 03 — Lifestyle Factors
+## 03 - Lifestyle Factors
 
 ### Q12: Depression rate by sleep duration
 ![Q12](screenshots/queries/3.1.png)
 
-**Result:** Students sleeping less than 5 hours have the highest depression rate at 64.5%, while those sleeping more than 8 hours have the lowest at 50.9%. Clear pattern — less sleep correlates with higher depression.
+**Result:** Students sleeping less than 5 hours have the highest depression rate at 64.5%, while those sleeping more than 8 hours have the lowest at 50.9%. Clear pattern - less sleep correlates with higher depression.
 
 ---
 
@@ -101,10 +101,10 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 
 ---
 
-### Q14: Average work/study hours — depressed vs non-depressed
+### Q14: Average work/study hours - depressed vs non-depressed
 ![Q14](screenshots/queries/3.3.png)
 
-**Result:** Depressed students average 7.81 work/study hours per day vs 6.24 for non-depressed — a difference of over 1.5 hours daily.
+**Result:** Depressed students average 7.81 work/study hours per day vs 6.24 for non-depressed - a difference of over 1.5 hours daily.
 
 ---
 
@@ -118,23 +118,23 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 ### Q16: Sleep + diet combined vs depression rate
 ![Q16](screenshots/queries/3.5.png)
 
-**Result:** The worst combination is less than 5 hours of sleep + unhealthy diet at 76.0%. The best is more than 8 hours of sleep + healthy diet at 36.8% — a 40 percentage point difference, highlighting how lifestyle factors compound each other.
+**Result:** The worst combination is less than 5 hours of sleep + unhealthy diet at 76.0%. The best is more than 8 hours of sleep + healthy diet at 36.8% - a 40 percentage point difference, highlighting how lifestyle factors compound each other.
 
 ---
 
-## 04 — Academic & Financial Pressure
+## 04 - Academic & Financial Pressure
 
 ### Q17: Depression rate by academic pressure level
 ![Q17](screenshots/queries/4.1.png)
 
-**Result:** The relationship is stark — at pressure level 1, only 19.4% of students are depressed. At level 5, that figure jumps to 86.1%. One of the strongest single predictors in the entire dataset.
+**Result:** The relationship is stark - at pressure level 1, only 19.4% of students are depressed. At level 5, that figure jumps to 86.1%. One of the strongest single predictors in the entire dataset.
 
 ---
 
-### Q18: Average CGPA — depressed vs non-depressed
+### Q18: Average CGPA - depressed vs non-depressed
 ![Q18](screenshots/queries/4.2.png)
 
-**Result:** Average CGPA is virtually identical — 7.62 for non-depressed and 7.68 for depressed students. CGPA alone has no meaningful relationship with depression in this dataset.
+**Result:** Average CGPA is virtually identical - 7.62 for non-depressed and 7.68 for depressed students. CGPA alone has no meaningful relationship with depression in this dataset.
 
 ---
 
@@ -148,7 +148,7 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 ### Q20: Depression rate by financial stress level
 ![Q20](screenshots/queries/4.4.png)
 
-**Result:** At financial stress level 1, depression rate is 31.9%. At level 5, it reaches 81.3% — a nearly 50 percentage point difference. Financial stress is one of the most powerful predictors alongside academic pressure.
+**Result:** At financial stress level 1, depression rate is 31.9%. At level 5, it reaches 81.3% - a nearly 50 percentage point difference. Financial stress is one of the most powerful predictors alongside academic pressure.
 
 ---
 
@@ -159,12 +159,12 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 
 ---
 
-## 05 — Risk Factors
+## 05 - Risk Factors
 
 ### Q22: Depression rate by suicidal thoughts history
 ![Q22](screenshots/queries/5.1.png)
 
-**Result:** Students who have had suicidal thoughts show a 79.0% depression rate, compared to just 23.2% for those who haven't. This is the single strongest binary predictor in the dataset — a 55.8 percentage point difference.
+**Result:** Students who have had suicidal thoughts show a 79.0% depression rate, compared to just 23.2% for those who haven't. This is the single strongest binary predictor in the dataset - a 55.8 percentage point difference.
 
 ---
 
@@ -178,11 +178,11 @@ Screenshots from Google BigQuery for each query. Queries are grouped by theme.
 ### Q24: Depression rate by study satisfaction
 ![Q24](screenshots/queries/5.3.png)
 
-**Result:** Clear inverse relationship — at satisfaction level 1, depression rate is 70.8%, falling to 47.2% at level 5. Students who enjoy their studies are significantly less likely to be depressed.
+**Result:** Clear inverse relationship - at satisfaction level 1, depression rate is 70.8%, falling to 47.2% at level 5. Students who enjoy their studies are significantly less likely to be depressed.
 
 ---
 
-### Q25: High-risk student profile — depression rate
+### Q25: High-risk student profile - depression rate
 ![Q25](screenshots/queries/5.4.png)
 
 **Result:** Among students with academic pressure ≥ 4, financial stress ≥ 4, sleep ≤ 6 hours, and prior suicidal thoughts, 2,417 out of 2,518 (96.0%) are depressed. This compound risk profile is an near-certain indicator of depression.
