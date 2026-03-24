@@ -50,3 +50,7 @@ A beginner-level SQL project analysing a student mental health survey dataset us
 | Google BigQuery | SQL queries & analysis |
 | Power BI | Data visualisation |
 | GitHub | Version control & project documentation |
+
+## By
+
+*Agata Horodyska*
