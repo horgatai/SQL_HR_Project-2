@@ -1,4 +1,4 @@
-# SQL_HR_Project-2 - Student Depression Analysis
+# Student Depression Analysis
 
 A beginner-level SQL project analysing a student mental health survey dataset using **Google BigQuery**. Results are visualised in **Power BI**.
 
