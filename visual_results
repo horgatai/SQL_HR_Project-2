@@ -1,0 +1,66 @@
+# Visual Results — Power BI
+
+Screenshots from the Power BI dashboard built on top of the BigQuery query results.
+
+---
+
+## Dashboard Overview
+
+<!-- INSERT FULL DASHBOARD SCREENSHOT -->
+
+---
+
+## Page 1 — Overview
+
+**Visuals included:**
+- KPI card: Overall depression rate (%)
+- KPI card: Total students surveyed
+- Bar chart: Depression rate by gender
+- Donut chart: Depressed vs non-depressed split
+
+<!-- INSERT SCREENSHOT -->
+
+---
+
+## Page 2 — Demographics
+
+**Visuals included:**
+- Bar chart: Depression rate by age group
+- Bar chart: Depression rate by degree type
+- Map or bar chart: Top cities by depression rate
+
+<!-- INSERT SCREENSHOT -->
+
+---
+
+## Page 3 — Lifestyle Factors
+
+**Visuals included:**
+- Bar chart: Depression rate by sleep duration
+- Bar chart: Depression rate by dietary habits
+- Bar chart: Depression rate by work/study hours bucket
+
+<!-- INSERT SCREENSHOT -->
+
+---
+
+## Page 4 — Pressure & Stress
+
+**Visuals included:**
+- Line or bar chart: Depression rate by academic pressure level (1–5)
+- Line or bar chart: Depression rate by financial stress level (1–5)
+- Scatter or clustered bar: Combined academic + financial pressure vs depression rate
+
+<!-- INSERT SCREENSHOT -->
+
+---
+
+## Page 5 — Risk Factors
+
+**Visuals included:**
+- Bar chart: Depression rate — suicidal thoughts Yes vs No
+- Bar chart: Depression rate — family history Yes vs No
+- Bar chart: Depression rate by study satisfaction (1–5)
+- KPI card: High-risk student depression rate
+
+<!-- INSERT SCREENSHOT -->
